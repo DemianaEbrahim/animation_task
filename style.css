@@ -1,0 +1,190 @@
+.dv1{
+    width: 200px;
+    height: 100px;
+    left: 0;
+    background-color: rgb(47, 169, 173);
+    animation-name: change;
+    animation-duration: 3s;
+    position: absolute; 
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+@keyframes change{
+  0%{
+    left: 0;
+  }
+
+  50%{
+    background-color:rgb(151, 234, 237);
+
+  }
+
+  100%{
+    background-color:rgb(23, 84, 86);
+    left: 1000px;
+  }
+}
+/* ///////////////////////////div2/////////////////////// */
+.dv2{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(47, 169, 173);
+    animation-name: change;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    top: 150px;
+    right: 0;
+    position: absolute;
+    animation-fill-mode: forwards;
+    animation-direction: reverse;
+    animation-timing-function: linear;
+}
+@keyframes change{
+  0%{
+    left: 0;
+  }
+  25%{
+  }
+  50%{
+    background-color: rgb(151, 234, 237);
+  }
+  75%{
+ 
+  }
+  100%{
+    background-color: rgb(23, 84, 86);
+    left: 1000px;
+
+  }
+}
+/*////////////////////div2//////////////////  */
+.dv3{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(47, 169, 173);
+    animation-name: change;
+    animation-duration: 3s;
+    animation-delay: 6s;
+    top: 300px;
+    left: 0;
+    position: absolute;
+    animation-fill-mode: forwards;
+    /* animation-direction: reverse; */
+    animation-timing-function: linear;
+}
+@keyframes change{
+  0%{
+    left: 0;
+  }
+  25%{
+  }
+  50%{
+    background-color: rgb(151, 234, 237);
+  }
+  75%{
+ 
+  }
+  100%{
+    background-color: rgb(23, 84, 86);
+    left: 1000px;
+  }
+}
+
+/* /////////////div3///////////////////////// */
+.dv4{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(47, 169, 173);
+    animation-name: change;
+    animation-duration: 3s;
+    animation-delay: 9s;
+    top: 450px;
+    right: 0;
+    position: absolute;
+    animation-fill-mode: forwards;
+    animation-direction: reverse;
+    animation-timing-function: linear;
+}
+@keyframes change{
+  0%{
+    left: 0;
+  }
+  25%{
+  }
+  50%{
+    background-color: rgb(151, 234, 237);
+  }
+  75%{
+ 
+  }
+  100%{
+    background-color: rgb(23, 84, 86);
+    left: 1000px;
+
+  }
+}
+/* //////////////////////////dv5///////////////////// */
+.dv5{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(47, 169, 173);
+    animation-name: change;
+    animation-duration: 3s;
+    animation-delay: 12s;
+    top: 600px;
+    left: 0;
+    position: absolute;
+    animation-fill-mode: forwards;
+    /* animation-direction: reverse; */
+    animation-timing-function: linear;
+}
+@keyframes change{
+  0%{
+    left: 0;
+  }
+  25%{
+  }
+  50%{
+    background-color: rgb(151, 234, 237);
+  }
+  75%{
+ 
+  }
+  100%{
+    background-color: rgb(23, 84, 86);
+    left: 1000px;
+  }
+}
+/* //////////////////////div6///////////////////// */
+
+.dv6{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(47, 169, 173);
+    animation-name: change;
+    animation-duration: 3s;
+    animation-delay: 15s;
+    top: 750px;
+    right: 0;
+    position: absolute;
+    animation-fill-mode: forwards;
+    animation-direction: reverse;
+    animation-timing-function: linear;
+}
+@keyframes change{
+  0%{
+    left: 0;
+  }
+  25%{
+  }
+  50%{
+    background-color: rgb(151, 234, 237);
+  }
+  75%{
+ 
+  }
+  100%{
+    left: 1000px;
+    background-color: rgb(23, 84, 86);
+  }
+}
