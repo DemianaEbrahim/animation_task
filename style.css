@@ -1,7 +1,6 @@
 .dv1{
     width: 200px;
     height: 100px;
-    left: 0;
     background-color: rgb(47, 169, 173);
     animation-name: change;
     animation-duration: 3s;
@@ -11,7 +10,9 @@
 }
 @keyframes change{
   0%{
+    background-color: rgb(160, 239, 212);
     left: 0;
+
   }
 
   50%{
@@ -29,32 +30,24 @@
     width: 200px;
     height: 100px;
     background-color: rgb(47, 169, 173);
-    animation-name: change;
+    animation-name: change1;
     animation-duration: 3s;
     animation-delay: 3s;
     top: 150px;
-    right: 0;
     position: absolute;
-    animation-fill-mode: forwards;
-    animation-direction: reverse;
+    animation-fill-mode: backwards;
     animation-timing-function: linear;
 }
-@keyframes change{
+@keyframes change1{
   0%{
-    left: 0;
-  }
-  25%{
+    left: 1000px;
   }
   50%{
     background-color: rgb(151, 234, 237);
   }
-  75%{
- 
-  }
   100%{
     background-color: rgb(23, 84, 86);
-    left: 1000px;
-
+    left: 0;
   }
 }
 /*////////////////////div2//////////////////  */
@@ -62,19 +55,19 @@
     width: 200px;
     height: 100px;
     background-color: rgb(47, 169, 173);
-    animation-name: change;
+    animation-name: change2;
     animation-duration: 3s;
     animation-delay: 6s;
     top: 300px;
-    left: 0;
     position: absolute;
     animation-fill-mode: forwards;
-    /* animation-direction: reverse; */
     animation-timing-function: linear;
 }
-@keyframes change{
+@keyframes change2{
   0%{
     left: 0;
+    /* background-color: rgb(160, 239, 212); */
+
   }
   25%{
   }
@@ -95,19 +88,18 @@
     width: 200px;
     height: 100px;
     background-color: rgb(47, 169, 173);
-    animation-name: change;
+    animation-name: change3;
     animation-duration: 3s;
     animation-delay: 9s;
     top: 450px;
-    right: 0;
     position: absolute;
-    animation-fill-mode: forwards;
-    animation-direction: reverse;
+    animation-fill-mode: backwards;
     animation-timing-function: linear;
 }
-@keyframes change{
+@keyframes change3{
   0%{
-    left: 0;
+    left: 1000px;
+    /* background-color: rgb(160, 239, 212); */
   }
   25%{
   }
@@ -119,7 +111,7 @@
   }
   100%{
     background-color: rgb(23, 84, 86);
-    left: 1000px;
+    left: 0;
 
   }
 }
@@ -128,17 +120,15 @@
     width: 200px;
     height: 100px;
     background-color: rgb(47, 169, 173);
-    animation-name: change;
+    animation-name: change4;
     animation-duration: 3s;
     animation-delay: 12s;
     top: 600px;
-    left: 0;
     position: absolute;
     animation-fill-mode: forwards;
-    /* animation-direction: reverse; */
     animation-timing-function: linear;
 }
-@keyframes change{
+@keyframes change4{
   0%{
     left: 0;
   }
@@ -161,19 +151,17 @@
     width: 200px;
     height: 100px;
     background-color: rgb(47, 169, 173);
-    animation-name: change;
+    animation-name: change5;
     animation-duration: 3s;
     animation-delay: 15s;
     top: 750px;
-    right: 0;
     position: absolute;
-    animation-fill-mode: forwards;
-    animation-direction: reverse;
+    animation-fill-mode: backwards;
     animation-timing-function: linear;
 }
-@keyframes change{
+@keyframes change5{
   0%{
-    left: 0;
+    left: 1000px;
   }
   25%{
   }
@@ -184,7 +172,7 @@
  
   }
   100%{
-    left: 1000px;
+    left: 0;
     background-color: rgb(23, 84, 86);
   }
 }
